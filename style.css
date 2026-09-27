@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter Tight", sans-serif;
+}
+
+header {
+  width: 1280px;
+  height: 796px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.headerTitle {
+  background-color: #576f35;
+  padding-left: 100px;
+  width: 50%;
+  padding-top: 232px;
+  display: flex;
+  flex-direction: column;
+  gap: 128px;
+}
+
+.headerImage {
+  width: 50%;
+  background: rgba(20, 20, 20, 0.2);
+  position: relative;
+}
+
+.headerImage::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(20, 20, 20, 0.2);
+}
+
+.headerImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.headerMaintitle {
+  font-weight: 600;
+  font-size: 76px;
+  line-height: 76px;
+  letter-spacing: -0.015em;
+  text-transform: uppercase;
+  color: #fbfbfb;
+}
+
+.headerTitle p {
+  width: 472px;
+  height: 80px;
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: -0%;
+  line-height: 20px;
+}
+
+.headerNav {
+    width: 100%;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    position: absolute;
+    z-index: 10;
+    top:32px;
+    padding: 16px 100px 16px 100px;
+
+
+
+}   
+
+.headerNavList {
+    padding: 0;
+    list-style: none;
+    margin-left: 366px;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+
+.headerNavList li a {
+    border: 1px solid #fbfbfb;
+    border-radius: 12px;
+    padding: 12px;
+    color: #fbfbfb;
+    text-decoration: none;
+
+}
