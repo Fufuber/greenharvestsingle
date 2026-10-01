@@ -182,8 +182,41 @@ header {
   background-color: white;
   border-radius: 15px;
   padding: 12px 15px 12px 24px;
-  gap: 10px;
+  gap: 24px;
+  align-items: center;
+
 
 }
 
+.numberHit {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  border: 4px solid rgba(212, 191, 196, 1);
+  background-color: rgba(122, 49, 69, 1);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+
+}
+
+.hitMarktitle {
+  font-weight: 700;
+  line-height: 20px;
+  font-size: 16px;
+  letter-spacing: 0%;
+  color: black;
+
+
+}
+
+.hitTitle p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  color: grey;
+}
 
