@@ -167,7 +167,6 @@ header {
   margin-top: 24px;
 }
 
-
 .sectionHowItWorksContentRightnumber {
   display: flex;
   flex-direction: column;
@@ -184,8 +183,6 @@ header {
   padding: 12px 15px 12px 24px;
   gap: 24px;
   align-items: center;
-
-
 }
 
 .numberHit {
@@ -199,7 +196,6 @@ header {
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-
 }
 
 .hitMarktitle {
@@ -208,8 +204,6 @@ header {
   font-size: 16px;
   letter-spacing: 0%;
   color: black;
-
-
 }
 
 .hitTitle p {
@@ -247,6 +241,7 @@ header {
   height: 1232px;
   background-color: rgba(122, 49, 69, 1);
   padding: 100px;
+  box-sizing: border-box;
 }
 
 .vegetablesTitles {
@@ -255,5 +250,135 @@ header {
   display: flex;
   flex-direction: column;
   gap: 24px;
+}
+
+.vegetablesCard {
+  width: 344px;
+  height: 380px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: white;
+  object-fit: cover;
+  padding: 32px;
+  border-radius: 40px;
+}
+
+.vegetablesCards {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  flex-wrap: wrap;
+  width: 1080px;
+  height: 789px;
+  margin-top: 52px;
+}
+
+.vegetablesCard h3 {
+  color: rgba(122, 49, 69, 1);
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 32px;
+  letter-spacing: -0.015em;
+  padding-bottom: 12px;
+}
+
+.vegetablesTitles h2 {
+  font-family: Inter Tight;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 64px;
+  leading-trim: NONE;
+  line-height: 64px;
+  letter-spacing: -1.5%;
+  vertical-align: middle;
+  text-transform: uppercase;
+  color: rgba(212, 191, 196, 1);
+}
+
+.vegetablesTitles p {
+  color: white;
+}
+
+.customers {
+  width: 1280px;
+  height: 692px;
+  padding: 100px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.customersTitle {
+  display: flex;
+  flex-direction: column;
+  width: 553px;
+  height: 192px;
+  gap: 24px;
+}
+
+.customersTitle h2 {
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 64px;
+  letter-spacing: -0.015em;
+  text-transform: uppercase;
+}
+
+.customersTitle h2 span {
+  color: rgba(87, 111, 53, 1);
+}
+
+.customersContent {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  margin-top: 52px;
 
 }
+
+.customersList {
+  width: 344px;
+  height: 248px;
+  border: 1px solid rgba(212, 191, 196, 1);
+  border-radius: 24px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.customersList img {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  
+}
+
+.customersList h3 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: -0.015em;
+  text-transform: uppercase;
+  color: black;
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+
+.customersList p {
+  color: grey;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  align-items: center;
+}
+
+
+
+
+
+
+
