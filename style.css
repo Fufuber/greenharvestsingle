@@ -10,7 +10,7 @@ body {
 
 header {
   width: 1280px;
-  height: 796px;
+  height: 100vh;
   display: flex;
   flex-direction: row;
   position: relative;
@@ -220,3 +220,40 @@ header {
   color: grey;
 }
 
+.discountArea {
+  width: 1280px;
+  height: 428px;
+  padding: 100px;
+  background-color: white;
+}
+
+.discountArea h2 {
+  font-weight: 600;
+  font-size: 76px;
+  line-height: 76px;
+  letter-spacing: -0.015em;
+  text-transform: uppercase;
+  margin-left: 16px;
+}
+
+.discountArea h2 span {
+  background-color: rgba(87, 111, 53, 1);
+  color: white;
+  border-radius: 12px;
+}
+
+.vegatablesList {
+  width: 1280px;
+  height: 1232px;
+  background-color: rgba(122, 49, 69, 1);
+  padding: 100px;
+}
+
+.vegetablesTitles {
+  width: 626px;
+  height: 192px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+}
